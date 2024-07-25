@@ -1,0 +1,40 @@
+.view-waitlist-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .view-waitlist-container h2 {
+    text-align: center;
+  }
+  
+  .waitlist-details {
+    width: 100%;
+  }
+  
+  .waitlist-image {
+    margin: 20px 0;
+  }
+  
+  .view-waitlist-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .view-waitlist-container li {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  

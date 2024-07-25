@@ -1,0 +1,43 @@
+.delete-waitlist-container {
+    padding: 20px;
+  }
+  
+  .waitlist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .waitlist-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 60%;
+  }
+  
+  .waitlist-image {
+    height: 150px;
+    background-color: #eee;
+  }
+  
+  .waitlist-info {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .delete-button {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #c9302c;
+  }
+  

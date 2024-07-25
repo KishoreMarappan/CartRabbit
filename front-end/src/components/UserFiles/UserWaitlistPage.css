@@ -1,0 +1,46 @@
+.user-waitlist-page-container {
+    padding: 20px;
+  }
+  
+  .waitlist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .waitlist-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(50% - 20px); /* Two items per row, with gap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .waitlist-image {
+    height: 200px;
+  }
+  
+  .waitlist-info {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .waitlist-info h3 {
+    margin: 0;
+  }
+  
+  .view-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .view-button:hover {
+    background-color: #0056b3;
+  }
+  
